@@ -1,0 +1,80 @@
+body
+{
+  margin: 0;
+  padding: 0;
+  background-image: linear-gradient(white,#fff9b3);
+  background-repeat: no-repeat;
+  box-sizing: border-box;
+}
+.logo,div.heading
+{
+  text-align: center;
+  justify-content:space-around;
+}
+div.flex-container
+{
+  display:flex;
+}
+.last
+{
+padding: 0 8vw;
+}
+div.bottom
+{
+  padding-left: 25px;
+  padding-bottom: 30px;
+}
+div.bottom p
+{
+  border-right: 1px solid red;
+  font-size: 15px;
+  display: inline;
+  padding: 5px;
+}
+div.bottom p:nth-last-child(1)
+{
+  border-right: 0;
+}
+div.contact
+{
+  margin: 0px;
+  padding: 40px;
+  background-color:#ec3237;
+  display: flex;
+  justify-content: space-around;
+}
+div.contact a
+{
+  text-decoration: none;
+  color:white;
+}
+
+div.contact a:hover
+{
+  color:black;
+}
+div.contact i
+{
+  padding: 5px;
+  color:white;
+}
+div.contact i:hover
+{
+  color:black;
+}
+p.mid
+{
+  font-size: 15px;
+  padding: 10px;
+}
+p.part
+{
+  text-align: center;
+}
+@media only screen and (max-width:600px) {
+  body
+  {
+    width: 100vw;
+  }
+
+}
